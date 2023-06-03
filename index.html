@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>budget app</title>
+    <link rel="stylesheet" href="./file/css/all.css">
+    <link rel="stylesheet" href=".style.css">
+
+</head>
+<body>
+     <nav>
+        <h1>BUDGET APP</h1>
+     </nav>
+
+<div class="one">
+    <input type="number" placeholder="add budget ammount" required id="amount">
+    <button onclick="addam()">Add amount </button>
+</div>
+
+
+
+<div class="main">
+  <div class="sub in">
+    <label for="pri">Enter price</label><br>
+    <input type="number" name="" id="pri" placeholder="add the price" required><br>
+    <br>
+<label for="tax">Add tax</label><br>
+<input type="number" id="tax" placeholder="Add tax" required><br><br>
+<label for="name">Expensive name</label><br>
+<input type="text" id="name" placeholder="add expensive name" required id="name"><br><br>
+<button onclick="adexp()">Add Expensive</button>
+
+
+  </div>
+ <div class="sub">
+  <ul id="list">
+
+
+
+
+
+
+
+
+
+
+
+
+  </ul>
+
+
+
+
+ </div>
+ <div class="sub" id="info"></div>
+</div>
+
+
+<div class="pan">
+    <div class="a">
+    <span>budget</span><br>
+    <span id="bud">00</span>
+
+    </div>
+
+   <div class="a">
+<span>Expensive</span><br>
+<span id="exp">00   </span>
+   </div>
+
+<div class="a">
+    <span>Balance</span><br>
+    <span id="bal">00</span>
+
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+<script src="./app.js"></script>
+
+
+
+</body>
+</html>

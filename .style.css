@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 80px;
+    font-size: 50px;
+}
+.one{
+    height: 60px;
+
+}
+.one #amount{
+    margin-top: 15px;
+    height: 30px;
+    width: 300px;
+    margin-left: 50px;
+}
+.one button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-left: 30px;
+
+}
+
+.pan{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    height: 90px;
+}
+
+.a{
+ 
+ align-items: center;   
+}
+
+
+.main{
+    height: 400px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub{
+    border: solid 1px;
+    border-radius: 10px;
+    width: 420px;
+    height: 370px;
+}
+.in{
+  padding: 30px 10px 0px 30px;
+}
+.in label{
+  font-size: 25px;
+}
+
+.in input{
+    height: 35px;
+    width: 250px;
+    font-size: 20px;
+}
+.in button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 100px;
+    
+}
+
+#list{
+    overflow: scroll;
+    height: 380px;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    height: 70px;
+    background-color: rgb(249, 251, 165);
+    color: rgb(18, 18, 18);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.i{
+    position: relative;
+    top: 20px;
+left: 10px;
+    font-size: 25px;
+    
+    width: 130px;
+    display:inline-block ;
+}
+.ii{
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+
+
+.iii{
+position: relative;
+top: 20px;
+left: -15px;
+font-size: 25px;
+
+width: 90px;
+display:inline-block ;
+}
+
+
+.pen,
+.foo{
+    border: none;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.pen:hover,
+.foo:hover{
+    color: blue;
+}
+
+
+#info{
+    text-transform: capitalize;
+    padding: 20px 15px 0px 15px;
+}
